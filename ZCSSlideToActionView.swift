@@ -9,9 +9,9 @@
 import Foundation
 
 @objc protocol ZCSSlideToActionViewDelegate {
+	func slideToActionActivated()
 	optional func slideToActionStarted()
 	optional func slideToActionCancelled()
-	optional func slideToActionActivated()
 	optional func slideToActionReset()
 }
 
@@ -78,9 +78,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 			}
 			if let d = self.delegate {
 				if self.willActivate {
-					if let f = d.slideToActionActivated {
-						f()
-					}
+					d.slideToActionActivated()
 				}
 				else {
 					if let f = d.slideToActionCancelled {
