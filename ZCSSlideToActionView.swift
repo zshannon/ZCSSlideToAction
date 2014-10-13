@@ -23,7 +23,6 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 	
 	@IBOutlet weak var delegate:ZCSSlideToActionViewDelegate? = nil
 	var activationPoint:Double = 0.66
-	var willActivate:Bool = false
 	var preventSlideBack:Bool = true
 	
 	override func awakeFromNib() {
@@ -53,6 +52,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 	}
 	
 	internal
+	var willActivate:Bool = false
 	
 	func handlePanGesture(recognizer: UIGestureRecognizer) {
 		if (recognizer.state == UIGestureRecognizerState.Began) {

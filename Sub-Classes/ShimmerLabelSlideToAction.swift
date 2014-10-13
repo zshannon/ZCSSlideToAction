@@ -8,10 +8,15 @@
 
 import Foundation
 
-class ShimmerLabel: ZCSSlideToActionView {
+class ShimmerLabelSlideToAction: ZCSSlideToActionView {
 	
-	let willActivateColor:UIColor = UIColor.greenColor()
-	let willNotActivateColor:UIColor = UIColor.purpleColor()
+	var willActivateColor:UIColor = UIColor.greenColor()
+	var willNotActivateColor:UIColor = UIColor.purpleColor()
+	var labelText:String = "> Slide to Action"
+	var labelTextColor:UIColor = UIColor.whiteColor()
+	var labelTextAlignment:NSTextAlignment = NSTextAlignment.Center
+	var labelFontName:String = "HelveticaNeue-Thin"
+	var labelFontSize:CGFloat = 55.0
 	
 	override func awakeFromNib() {
 		super.awakeFromNib()
@@ -20,11 +25,11 @@ class ShimmerLabel: ZCSSlideToActionView {
 			self.addSubview(v)
 			let label = UILabel(frame: CGRectZero)
 			label.setTranslatesAutoresizingMaskIntoConstraints(false)
-			label.textAlignment = NSTextAlignment.Center
-			label.text = "> Slide to Action"
-			label.textColor = UIColor.whiteColor()
+			label.textAlignment = self.labelTextAlignment
+			label.text = self.labelText
+			label.textColor = self.labelTextColor
 			label.adjustsFontSizeToFitWidth = true
-			label.font = UIFont(name: "HelveticaNeue-Thin", size: 55.0)
+			label.font = UIFont(name: self.labelFontName, size: self.labelFontSize)
 			v.contentView = label
 			v.shimmering = true
 		}

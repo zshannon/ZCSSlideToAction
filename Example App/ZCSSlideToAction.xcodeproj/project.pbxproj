@@ -15,7 +15,7 @@
 		1137ABD819E8E35600BBA414 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1137ABD619E8E35600BBA414 /* LaunchScreen.xib */; };
 		1137ABE419E8E35600BBA414 /* ZCSSlideToActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137ABE319E8E35600BBA414 /* ZCSSlideToActionTests.swift */; };
 		1137ABEF19E8F3B800BBA414 /* ZCSSlideToActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */; };
-		11CD396219EC5041005E81A4 /* ShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD396119EC5041005E81A4 /* ShimmerLabel.swift */; };
+		11CD396219EC5041005E81A4 /* ShimmerLabelSlideToAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD396119EC5041005E81A4 /* ShimmerLabelSlideToAction.swift */; };
 		121705EE4DC34C20AEB5F381 /* libPods-ZCSSlideToAction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,7 @@
 		1137ABE319E8E35600BBA414 /* ZCSSlideToActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCSSlideToActionTests.swift; sourceTree = "<group>"; };
 		1137ABED19E8EC1700BBA414 /* ZCSSlideToAction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZCSSlideToAction-Bridging-Header.h"; sourceTree = "<group>"; };
 		1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCSSlideToActionView.swift; path = ../ZCSSlideToActionView.swift; sourceTree = "<group>"; };
-		11CD396119EC5041005E81A4 /* ShimmerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShimmerLabel.swift; path = ../Sliders/ShimmerLabel.swift; sourceTree = "<group>"; };
+		11CD396119EC5041005E81A4 /* ShimmerLabelSlideToAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShimmerLabelSlideToAction.swift; path = "../Sub-Classes/ShimmerLabelSlideToAction.swift"; sourceTree = "<group>"; };
 		4524E64E751541D7AD63E861 /* Pods-ZCSSlideToAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCSSlideToAction.xcconfig"; path = "Pods/Pods-ZCSSlideToAction.xcconfig"; sourceTree = "<group>"; };
 		5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZCSSlideToAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 		1137ABBC19E8E35600BBA414 = {
 			isa = PBXGroup;
 			children = (
-				1137ABF719EC4C0100BBA414 /* Sliders */,
+				1137ABF719EC4C0100BBA414 /* Sub-Classes */,
 				1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */,
 				1137ABC719E8E35600BBA414 /* ZCSSlideToAction */,
 				1137ABE019E8E35600BBA414 /* ZCSSlideToActionTests */,
@@ -129,12 +129,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1137ABF719EC4C0100BBA414 /* Sliders */ = {
+		1137ABF719EC4C0100BBA414 /* Sub-Classes */ = {
 			isa = PBXGroup;
 			children = (
-				11CD396119EC5041005E81A4 /* ShimmerLabel.swift */,
+				11CD396119EC5041005E81A4 /* ShimmerLabelSlideToAction.swift */,
 			);
-			name = Sliders;
+			name = "Sub-Classes";
 			sourceTree = "<group>";
 		};
 		C5FCC2E607144A9D8A6E1FAC /* Frameworks */ = {
@@ -282,7 +282,7 @@
 			files = (
 				1137ABD019E8E35600BBA414 /* ViewController.swift in Sources */,
 				1137ABCB19E8E35600BBA414 /* AppDelegate.swift in Sources */,
-				11CD396219EC5041005E81A4 /* ShimmerLabel.swift in Sources */,
+				11CD396219EC5041005E81A4 /* ShimmerLabelSlideToAction.swift in Sources */,
 				1137ABCE19E8E35600BBA414 /* ZCSSlideToAction.xcdatamodeld in Sources */,
 				1137ABEF19E8F3B800BBA414 /* ZCSSlideToActionView.swift in Sources */,
 			);
