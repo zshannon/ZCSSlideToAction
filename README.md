@@ -51,7 +51,7 @@ var labelFontName:String = "HelveticaNeue-Thin"
 var labelFontSize:CGFloat = 55.0
 ```
 
-![Example App with ShimmerLabelSlideToAction]](/../screenshots/ShimmerLabelSlideToAction-preview.gif?raw=true "Example App with ShimmerLabelSlideToAction")
+![Example App with ShimmerLabelSlideToAction](/../screenshots/ShimmerLabelSlideToAction-preview.gif?raw=true "Example App with ShimmerLabelSlideToAction")
 
 ## Contributing ##
 Send me Pull Requests here, please. Especially interested in new slider styles.
