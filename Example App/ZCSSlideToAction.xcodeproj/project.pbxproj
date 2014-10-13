@@ -14,6 +14,9 @@
 		1137ABD519E8E35600BBA414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1137ABD419E8E35600BBA414 /* Images.xcassets */; };
 		1137ABD819E8E35600BBA414 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1137ABD619E8E35600BBA414 /* LaunchScreen.xib */; };
 		1137ABE419E8E35600BBA414 /* ZCSSlideToActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137ABE319E8E35600BBA414 /* ZCSSlideToActionTests.swift */; };
+		1137ABEF19E8F3B800BBA414 /* ZCSSlideToActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */; };
+		11CD396219EC5041005E81A4 /* ShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD396119EC5041005E81A4 /* ShimmerLabel.swift */; };
+		121705EE4DC34C20AEB5F381 /* libPods-ZCSSlideToAction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 		1137ABDD19E8E35600BBA414 /* ZCSSlideToActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCSSlideToActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1137ABE219E8E35600BBA414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1137ABE319E8E35600BBA414 /* ZCSSlideToActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCSSlideToActionTests.swift; sourceTree = "<group>"; };
+		1137ABED19E8EC1700BBA414 /* ZCSSlideToAction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZCSSlideToAction-Bridging-Header.h"; sourceTree = "<group>"; };
+		1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCSSlideToActionView.swift; path = ../ZCSSlideToActionView.swift; sourceTree = "<group>"; };
+		11CD396119EC5041005E81A4 /* ShimmerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShimmerLabel.swift; path = ../Sliders/ShimmerLabel.swift; sourceTree = "<group>"; };
+		4524E64E751541D7AD63E861 /* Pods-ZCSSlideToAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCSSlideToAction.xcconfig"; path = "Pods/Pods-ZCSSlideToAction.xcconfig"; sourceTree = "<group>"; };
+		5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZCSSlideToAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121705EE4DC34C20AEB5F381 /* libPods-ZCSSlideToAction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +70,13 @@
 		1137ABBC19E8E35600BBA414 = {
 			isa = PBXGroup;
 			children = (
+				1137ABF719EC4C0100BBA414 /* Sliders */,
+				1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */,
 				1137ABC719E8E35600BBA414 /* ZCSSlideToAction */,
 				1137ABE019E8E35600BBA414 /* ZCSSlideToActionTests */,
 				1137ABC619E8E35600BBA414 /* Products */,
+				4524E64E751541D7AD63E861 /* Pods-ZCSSlideToAction.xcconfig */,
+				C5FCC2E607144A9D8A6E1FAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +99,7 @@
 				1137ABD619E8E35600BBA414 /* LaunchScreen.xib */,
 				1137ABCC19E8E35600BBA414 /* ZCSSlideToAction.xcdatamodeld */,
 				1137ABC819E8E35600BBA414 /* Supporting Files */,
+				1137ABED19E8EC1700BBA414 /* ZCSSlideToAction-Bridging-Header.h */,
 			);
 			path = ZCSSlideToAction;
 			sourceTree = "<group>";
@@ -115,6 +129,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1137ABF719EC4C0100BBA414 /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				11CD396119EC5041005E81A4 /* ShimmerLabel.swift */,
+			);
+			name = Sliders;
+			sourceTree = "<group>";
+		};
+		C5FCC2E607144A9D8A6E1FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1137ABE719E8E35600BBA414 /* Build configuration list for PBXNativeTarget "ZCSSlideToAction" */;
 			buildPhases = (
+				1260198A441D454683A7EE5B /* Check Pods Manifest.lock */,
 				1137ABC119E8E35600BBA414 /* Sources */,
 				1137ABC219E8E35600BBA414 /* Frameworks */,
 				1137ABC319E8E35600BBA414 /* Resources */,
+				45EE6DA7585C43B5A23DB816 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +242,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1260198A441D454683A7EE5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45EE6DA7585C43B5A23DB816 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ZCSSlideToAction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1137ABC119E8E35600BBA414 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -217,7 +282,9 @@
 			files = (
 				1137ABD019E8E35600BBA414 /* ViewController.swift in Sources */,
 				1137ABCB19E8E35600BBA414 /* AppDelegate.swift in Sources */,
+				11CD396219EC5041005E81A4 /* ShimmerLabel.swift in Sources */,
 				1137ABCE19E8E35600BBA414 /* ZCSSlideToAction.xcdatamodeld in Sources */,
+				1137ABEF19E8F3B800BBA414 /* ZCSSlideToActionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +407,25 @@
 		};
 		1137ABE819E8E35600BBA414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4524E64E751541D7AD63E861 /* Pods-ZCSSlideToAction.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZCSSlideToAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZCSSlideToAction/ZCSSlideToAction-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		1137ABE919E8E35600BBA414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4524E64E751541D7AD63E861 /* Pods-ZCSSlideToAction.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZCSSlideToAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZCSSlideToAction/ZCSSlideToAction-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +482,7 @@
 				1137ABE919E8E35600BBA414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1137ABEA19E8E35600BBA414 /* Build configuration list for PBXNativeTarget "ZCSSlideToActionTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +491,7 @@
 				1137ABEC19E8E35600BBA414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

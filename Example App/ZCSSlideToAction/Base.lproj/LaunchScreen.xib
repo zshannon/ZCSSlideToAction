@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="6xl-DK-fCF">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stripes" translatesAutoresizingMaskIntoConstraints="NO" id="vYb-zs-gOK">
+                    <rect key="frame" x="-60" y="-60" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6xl-DK-fCF" secondAttribute="trailing" id="2aB-39-ay4"/>
+                <constraint firstItem="6xl-DK-fCF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4K9-GO-tlX"/>
+                <constraint firstAttribute="bottom" secondItem="vYb-zs-gOK" secondAttribute="bottom" constant="-60" id="703-u5-MtO"/>
+                <constraint firstItem="vYb-zs-gOK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-60" id="GDc-un-DyJ"/>
+                <constraint firstAttribute="bottom" secondItem="6xl-DK-fCF" secondAttribute="bottom" id="MQH-OC-h32"/>
+                <constraint firstAttribute="trailing" secondItem="vYb-zs-gOK" secondAttribute="trailing" constant="-60" id="MQe-9i-8pg"/>
+                <constraint firstItem="6xl-DK-fCF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="U2V-j0-3ox"/>
+                <constraint firstItem="vYb-zs-gOK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-60" id="d53-O5-K19"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg" width="512" height="512"/>
+        <image name="stripes" width="512" height="512"/>
+    </resources>
+</document>
