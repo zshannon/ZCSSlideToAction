@@ -9,10 +9,10 @@
 import Foundation
 
 @objc protocol ZCSSlideToActionViewDelegate {
-	func slideToActionActivated()
-	optional func slideToActionStarted()
-	optional func slideToActionCancelled()
-	optional func slideToActionReset()
+	func slideToActionActivated(sender:ZCSSlideToActionView)
+	optional func slideToActionStarted(sender:ZCSSlideToActionView)
+	optional func slideToActionCancelled(sender:ZCSSlideToActionView)
+	optional func slideToActionReset(sender:ZCSSlideToActionView)
 }
 
 @objc protocol SliderProtocol {
@@ -41,7 +41,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 		self.renderPosition(0.0, animated: true)
 		if let d = self.delegate {
 			if let f = d.slideToActionReset {
-				f()
+				f(self)
 			}
 		}
 	}
@@ -61,7 +61,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 			self.renderPosition(percentagePosition, animated: false)
 			if let d = self.delegate {
 				if let f = d.slideToActionStarted {
-					f()
+					f(self)
 				}
 			}
 		}
@@ -78,11 +78,11 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 			}
 			if let d = self.delegate {
 				if self.willActivate {
-					d.slideToActionActivated()
+					d.slideToActionActivated(self)
 				}
 				else {
 					if let f = d.slideToActionCancelled {
-						f()
+						f(self)
 					}
 				}
 			}

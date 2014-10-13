@@ -30,6 +30,12 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="EHJ-uD-crj"/>
                                 </connections>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shimmer Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaI-IZ-Y2C">
+                                <rect key="frame" x="16" y="518" width="568" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -40,6 +46,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Uy1-Dg-opK" secondAttribute="bottom" constant="100" id="S3u-Ss-pWA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tu4-9s-5ki" secondAttribute="trailing" constant="-16" id="WZf-tM-xpm"/>
                             <constraint firstItem="Uy1-Dg-opK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="dRp-pO-xIf"/>
+                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eMd-7a-k2h"/>
+                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="top" secondItem="Uy1-Dg-opK" secondAttribute="bottom" constant="18" id="hil-kJ-ojM"/>
+                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="sZA-8K-OUR"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

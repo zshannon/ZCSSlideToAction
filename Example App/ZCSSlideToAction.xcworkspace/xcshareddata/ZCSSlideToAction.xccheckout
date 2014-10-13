@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6563876A-28DB-47C6-A6C5-391623447583</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZCSSlideToAction</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>48667563107892AAF4515290528D3989A3EC281D</key>
+		<string>github.com:zshannon/ZCSSlideToAction.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example App/ZCSSlideToAction.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>48667563107892AAF4515290528D3989A3EC281D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:zshannon/ZCSSlideToAction.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>48667563107892AAF4515290528D3989A3EC281D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>48667563107892AAF4515290528D3989A3EC281D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZCSSlideToAction</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -23,11 +23,11 @@ class ViewController: UIViewController, ZCSSlideToActionViewDelegate {
 		}
 	}
 	
-	func slideToActionCancelled() {
+	func slideToActionCancelled(sender:ZCSSlideToActionView) {
 		self.backgroundImageView?.highlighted = false
 	}
 	
-	func slideToActionActivated() {
+	func slideToActionActivated(sender:ZCSSlideToActionView) {
 		self.backgroundImageView?.highlighted = true
 		if let v = self.slideToActionView {
 			self.resetLabel = UILabel(frame: v.bounds)
@@ -44,7 +44,7 @@ class ViewController: UIViewController, ZCSSlideToActionViewDelegate {
 		
 	}
 	
-	func slideToActionReset() {
+	func slideToActionReset(sender:ZCSSlideToActionView) {
 		self.backgroundImageView?.highlighted = false
 		self.resetLabel?.removeFromSuperview()
 	}
