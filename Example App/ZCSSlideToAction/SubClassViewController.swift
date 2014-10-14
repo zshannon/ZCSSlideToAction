@@ -28,7 +28,6 @@ class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 	override func viewWillLayoutSubviews() {
 		super.viewWillLayoutSubviews()
 		if let v = self.slideToActionViewPlaceholder {
-			println("view.frame: \(view.frame), \(v.frame)")
 			v.frame = CGRectMake(0, 0, view.frame.width, v.frame.height)
 			v.layoutSubviews()
 		}
@@ -48,7 +47,6 @@ class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 					actionView.layoutSubviews()
 					let singleTapGestureRecognizer = UITapGestureRecognizer(target: actionView, action: "reset")
 					actionView.addGestureRecognizer(singleTapGestureRecognizer)
-					println("actionView: \(actionView.frame)")
 				}
 			}
 		}
@@ -60,7 +58,7 @@ class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 	
 	func slideToActionActivated(sender:ZCSSlideToActionView) {
 		self.backgroundImageView?.highlighted = true
-		if let v = self.slideToActionView {
+		if let v = self.slideToActionViewPlaceholder {
 			self.resetLabel = UILabel(frame: v.bounds)
 			self.resetLabel?.text = "Tap to Reset"
 			self.resetLabel?.textColor = UIColor.whiteColor()
