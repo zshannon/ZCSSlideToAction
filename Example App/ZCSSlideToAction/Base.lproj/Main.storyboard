@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8qo-Co-Z2W">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsVerticalScrollIndicator="NO" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="trv-b3-zLZ">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <connections>
@@ -36,12 +39,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="8qo-Co-Z2W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="9Ka-wt-glQ"/>
                             <constraint firstItem="trv-b3-zLZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="9ka-uT-EY4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8qo-Co-Z2W" secondAttribute="trailing" constant="-16" id="A54-uZ-OLs"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="trv-b3-zLZ" secondAttribute="bottom" id="Msi-Zm-4PO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8qo-Co-Z2W" secondAttribute="bottom" id="QiW-KW-Rv1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YFN-n6-HRO" secondAttribute="trailing" constant="-16" id="SGO-bZ-Y2l"/>
                             <constraint firstItem="trv-b3-zLZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Skc-iI-hTU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YFN-n6-HRO" secondAttribute="bottom" id="TwR-6c-C9c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="trv-b3-zLZ" secondAttribute="trailing" constant="-16" id="WQz-k7-v5w"/>
+                            <constraint firstItem="8qo-Co-Z2W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="X9C-C7-yrE"/>
                             <constraint firstItem="YFN-n6-HRO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Yfl-Qj-Obi"/>
                         </constraints>
                     </view>
@@ -51,7 +58,6 @@
                         <outlet property="backgroundImageView" destination="Tu4-9s-5ki" id="dzJ-lB-8nK"/>
                         <outlet property="pageControl" destination="YFN-n6-HRO" id="UEl-3r-YCO"/>
                         <outlet property="scrollView" destination="trv-b3-zLZ" id="TgO-bD-igb"/>
-                        <outlet property="slideToActionView" destination="Uy1-Dg-opK" id="JuH-F8-naJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -78,15 +84,12 @@
                                 <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-Dg-opK" customClass="ShimmerLabelSlideToAction" customModule="ZCSSlideToAction" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-Dg-opK">
                                 <rect key="frame" x="0.0" y="392.5" width="600" height="100"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="hDr-8E-sra"/>
                                 </constraints>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="EHJ-uD-crj"/>
-                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,12 +109,12 @@
                     <connections>
                         <outlet property="backgroundImageView" destination="Tu4-9s-5ki" id="o5q-gf-M5a"/>
                         <outlet property="sildeToActionViewLabel" destination="VaI-IZ-Y2C" id="3Te-oh-Xsv"/>
-                        <outlet property="slideToActionView" destination="Uy1-Dg-opK" id="A7z-DI-MYJ"/>
+                        <outlet property="slideToActionViewPlaceholder" destination="Uy1-Dg-opK" id="PIC-cx-DiV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zY4-lx-c3H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="140"/>
+            <point key="canvasLocation" x="804" y="136"/>
         </scene>
     </scenes>
     <resources>

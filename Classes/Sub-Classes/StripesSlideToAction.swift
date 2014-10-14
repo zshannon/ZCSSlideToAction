@@ -1,5 +1,5 @@
 //
-//  ShimmerLabelSlideToAction.swift
+//  StripesSlideToAction.swift
 //  ZCSSlideToAction
 //
 //  Created by Zane Shannon on 10/13/14.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc(ShimmerLabelSlideToAction) class ShimmerLabelSlideToAction: ZCSSlideToActionView {
+@objc(StripesSlideToAction) class StripesSlideToAction: ZCSSlideToActionView {
 	
 	var willActivateColor:UIColor = UIColor.greenColor()
 	var willNotActivateColor:UIColor = UIColor.purpleColor()

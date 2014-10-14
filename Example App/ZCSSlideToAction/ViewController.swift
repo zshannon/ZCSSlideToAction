@@ -13,8 +13,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 	@IBOutlet var scrollView:UIScrollView? = nil
 	@IBOutlet var pageControl:UIPageControl? = nil
 	let contentList = [
+		["Label": "Stripes", "Class": "StripesSlideToAction"],
 		["Label": "Shimmer Label", "Class": "ShimmerLabelSlideToAction"]
-		//["Label": "Shimmer Label 2", "Class": "ShimmerLabelSlideToAction"]
 	]
 	var viewControllers:[SubClassViewController]? = nil
 

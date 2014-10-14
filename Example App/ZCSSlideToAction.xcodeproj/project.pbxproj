@@ -17,6 +17,7 @@
 		1137ABEF19E8F3B800BBA414 /* ZCSSlideToActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */; };
 		11CD396219EC5041005E81A4 /* ShimmerLabelSlideToAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD396119EC5041005E81A4 /* ShimmerLabelSlideToAction.swift */; };
 		11CD396419ECAE1F005E81A4 /* SubClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD396319ECAE1F005E81A4 /* SubClassViewController.swift */; };
+		11CD396619ECCEE3005E81A4 /* StripesSlideToAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD396519ECCEE3005E81A4 /* StripesSlideToAction.swift */; };
 		121705EE4DC34C20AEB5F381 /* libPods-ZCSSlideToAction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		1137ABEE19E8F3B800BBA414 /* ZCSSlideToActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCSSlideToActionView.swift; path = ../Classes/ZCSSlideToActionView.swift; sourceTree = "<group>"; };
 		11CD396119EC5041005E81A4 /* ShimmerLabelSlideToAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShimmerLabelSlideToAction.swift; path = "../Classes/Sub-Classes/ShimmerLabelSlideToAction.swift"; sourceTree = "<group>"; };
 		11CD396319ECAE1F005E81A4 /* SubClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubClassViewController.swift; sourceTree = "<group>"; };
+		11CD396519ECCEE3005E81A4 /* StripesSlideToAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StripesSlideToAction.swift; path = "../Classes/Sub-Classes/StripesSlideToAction.swift"; sourceTree = "<group>"; };
 		4524E64E751541D7AD63E861 /* Pods-ZCSSlideToAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCSSlideToAction.xcconfig"; path = "Pods/Pods-ZCSSlideToAction.xcconfig"; sourceTree = "<group>"; };
 		5975E23498F74CF2BF4199E7 /* libPods-ZCSSlideToAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZCSSlideToAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				11CD396119EC5041005E81A4 /* ShimmerLabelSlideToAction.swift */,
+				11CD396519ECCEE3005E81A4 /* StripesSlideToAction.swift */,
 			);
 			name = "Sub-Classes";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				1137ABD019E8E35600BBA414 /* ViewController.swift in Sources */,
 				1137ABCB19E8E35600BBA414 /* AppDelegate.swift in Sources */,
 				11CD396219EC5041005E81A4 /* ShimmerLabelSlideToAction.swift in Sources */,
+				11CD396619ECCEE3005E81A4 /* StripesSlideToAction.swift in Sources */,
 				1137ABCE19E8E35600BBA414 /* ZCSSlideToAction.xcdatamodeld in Sources */,
 				1137ABEF19E8F3B800BBA414 /* ZCSSlideToActionView.swift in Sources */,
 			);

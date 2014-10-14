@@ -12,7 +12,8 @@ class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 	
 	var subClassObject:[String: String]? = nil
 	@IBOutlet var backgroundImageView:UIImageView? = nil
-	@IBOutlet var slideToActionView:ZCSSlideToActionView? = nil
+	@IBOutlet var slideToActionViewPlaceholder:UIView? = nil
+	var slideToActionView:ZCSSlideToActionView? = nil
 	@IBOutlet var sildeToActionViewLabel:UILabel? = nil
 	
 	var resetLabel:UILabel? = nil
@@ -20,17 +21,37 @@ class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		if let v = self.slideToActionView {
-			let singleTapGestureRecognizer = UITapGestureRecognizer(target: v, action: "reset")
-			v.addGestureRecognizer(singleTapGestureRecognizer)
+			
+		}
+	}
+	
+	override func viewWillLayoutSubviews() {
+		super.viewWillLayoutSubviews()
+		if let v = self.slideToActionViewPlaceholder {
+			println("view.frame: \(view.frame), \(v.frame)")
+			v.frame = CGRectMake(0, 0, view.frame.width, v.frame.height)
+			v.layoutSubviews()
 		}
 	}
 	
 	func setSubClassObject(object:[String: String]?) {
 		self.subClassObject = object
 		if let o = object {
-			self.sildeToActionViewLabel?.text = o["Label"]
+			self.sildeToActionViewLabel?.text = o["Label"] as AnyObject? as? String
+			if let klass = NSClassFromString(o["Class"] as AnyObject? as? String) as? NSObject.Type {
+				self.slideToActionView = klass() as? ZCSSlideToActionView
+				if let actionView = self.slideToActionView {
+					actionView.delegate = self
+					self.slideToActionViewPlaceholder!.addSubview(actionView)
+					actionView.awakeFromNib()
+					actionView.frame = self.slideToActionViewPlaceholder!.bounds
+					actionView.layoutSubviews()
+					let singleTapGestureRecognizer = UITapGestureRecognizer(target: actionView, action: "reset")
+					actionView.addGestureRecognizer(singleTapGestureRecognizer)
+					println("actionView: \(actionView.frame)")
+				}
+			}
 		}
-		self.slideToActionView!.delegate = self
 	}
 	
 	func slideToActionCancelled(sender:ZCSSlideToActionView) {
