@@ -12,7 +12,7 @@ class ShimmerLabelSlideToAction: ZCSSlideToActionView {
 	
 	var willActivateColor:UIColor = UIColor.greenColor()
 	var willNotActivateColor:UIColor = UIColor.purpleColor()
-	var labelText:String = "> Slide to Action"
+	var labelText:String = "> Slide"
 	var labelTextColor:UIColor = UIColor.whiteColor()
 	var labelTextAlignment:NSTextAlignment = NSTextAlignment.Center
 	var labelFontName:String = "HelveticaNeue-Thin"
