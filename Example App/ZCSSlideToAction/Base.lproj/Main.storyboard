@@ -17,11 +17,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" highlightedImage="bg-highlighted" translatesAutoresizingMaskIntoConstraints="NO" id="Tu4-9s-5ki">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsVerticalScrollIndicator="NO" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="trv-b3-zLZ">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="jbr-K8-Prk"/>
+                                </connections>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFN-n6-HRO" customClass="UIPageControl">
+                                <rect key="frame" x="0.0" y="570" width="600" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="djd-Gk-IDV"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="pageChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Jza-6b-cAh"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="trv-b3-zLZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="9ka-uT-EY4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="trv-b3-zLZ" secondAttribute="bottom" id="Msi-Zm-4PO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YFN-n6-HRO" secondAttribute="trailing" constant="-16" id="SGO-bZ-Y2l"/>
+                            <constraint firstItem="trv-b3-zLZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Skc-iI-hTU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YFN-n6-HRO" secondAttribute="bottom" id="TwR-6c-C9c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="trv-b3-zLZ" secondAttribute="trailing" constant="-16" id="WQz-k7-v5w"/>
+                            <constraint firstItem="YFN-n6-HRO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Yfl-Qj-Obi"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="Tu4-9s-5ki" id="dzJ-lB-8nK"/>
+                        <outlet property="pageControl" destination="YFN-n6-HRO" id="UEl-3r-YCO"/>
+                        <outlet property="scrollView" destination="trv-b3-zLZ" id="TgO-bD-igb"/>
+                        <outlet property="slideToActionView" destination="Uy1-Dg-opK" id="JuH-F8-naJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Sub Class View Controller-->
+        <scene sceneID="Xrk-De-faY">
+            <objects>
+                <viewController storyboardIdentifier="SubClassViewController" id="nim-jj-dCQ" customClass="SubClassViewController" customModule="ZCSSlideToAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y9T-9T-dou"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Ka-TX-kiv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jpW-0b-buY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg" highlightedImage="bg-highlighted" translatesAutoresizingMaskIntoConstraints="NO" id="Tu4-9s-5ki">
+                                <rect key="frame" x="0.0" y="-8" width="600" height="608"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaI-IZ-Y2C">
+                                <rect key="frame" x="16" y="498.5" width="568" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-Dg-opK" customClass="ShimmerLabelSlideToAction" customModule="ZCSSlideToAction" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="400" width="600" height="100"/>
+                                <rect key="frame" x="0.0" y="392.5" width="600" height="100"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="hDr-8E-sra"/>
@@ -30,36 +88,30 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="EHJ-uD-crj"/>
                                 </connections>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shimmer Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaI-IZ-Y2C">
-                                <rect key="frame" x="16" y="518" width="568" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Tu4-9s-5ki" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="489-9O-fVA"/>
-                            <constraint firstItem="Uy1-Dg-opK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="16" id="8ay-4N-fXd"/>
-                            <constraint firstItem="Tu4-9s-5ki" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="CHM-Vb-lIl"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tu4-9s-5ki" secondAttribute="bottom" id="Lzo-sS-w1p"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Uy1-Dg-opK" secondAttribute="bottom" constant="100" id="S3u-Ss-pWA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Tu4-9s-5ki" secondAttribute="trailing" constant="-16" id="WZf-tM-xpm"/>
-                            <constraint firstItem="Uy1-Dg-opK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="dRp-pO-xIf"/>
-                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eMd-7a-k2h"/>
-                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="top" secondItem="Uy1-Dg-opK" secondAttribute="bottom" constant="18" id="hil-kJ-ojM"/>
-                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="sZA-8K-OUR"/>
+                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="trailing" secondItem="jpW-0b-buY" secondAttribute="trailingMargin" id="JeN-om-Apu"/>
+                            <constraint firstItem="Tu4-9s-5ki" firstAttribute="top" secondItem="jpW-0b-buY" secondAttribute="topMargin" constant="-8" id="KK2-nR-DE1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uy1-Dg-opK" secondAttribute="trailing" constant="-16" id="TRJ-nA-7sU"/>
+                            <constraint firstItem="2Ka-TX-kiv" firstAttribute="top" secondItem="Tu4-9s-5ki" secondAttribute="bottom" id="a5E-uT-pVA"/>
+                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="top" secondItem="Uy1-Dg-opK" secondAttribute="bottom" constant="6" id="cr3-pN-1Ah"/>
+                            <constraint firstItem="VaI-IZ-Y2C" firstAttribute="leading" secondItem="jpW-0b-buY" secondAttribute="leadingMargin" id="fqE-BQ-Sfu"/>
+                            <constraint firstItem="Uy1-Dg-opK" firstAttribute="leading" secondItem="jpW-0b-buY" secondAttribute="leadingMargin" constant="-16" id="qHN-zU-V4I"/>
+                            <constraint firstItem="2Ka-TX-kiv" firstAttribute="top" secondItem="VaI-IZ-Y2C" secondAttribute="bottom" constant="80" id="vC0-pH-dBX"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
                     <connections>
-                        <outlet property="backgroundImageView" destination="Tu4-9s-5ki" id="dzJ-lB-8nK"/>
-                        <outlet property="slideToActionView" destination="Uy1-Dg-opK" id="JuH-F8-naJ"/>
+                        <outlet property="backgroundImageView" destination="Tu4-9s-5ki" id="o5q-gf-M5a"/>
+                        <outlet property="sildeToActionViewLabel" destination="VaI-IZ-Y2C" id="3Te-oh-Xsv"/>
+                        <outlet property="slideToActionView" destination="Uy1-Dg-opK" id="A7z-DI-MYJ"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zY4-lx-c3H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="798" y="140"/>
         </scene>
     </scenes>
     <resources>
