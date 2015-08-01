@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -75,17 +75,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg" highlightedImage="bg-highlighted" translatesAutoresizingMaskIntoConstraints="NO" id="Tu4-9s-5ki">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" highlightedImage="bg-highlighted" translatesAutoresizingMaskIntoConstraints="NO" id="Tu4-9s-5ki">
                                 <rect key="frame" x="0.0" y="-8" width="600" height="608"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaI-IZ-Y2C">
-                                <rect key="frame" x="16" y="498.5" width="568" height="21.5"/>
+                                <rect key="frame" x="16" y="498" width="568" height="21.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-Dg-opK">
-                                <rect key="frame" x="0.0" y="392.5" width="600" height="100"/>
+                                <rect key="frame" x="0.0" y="392" width="600" height="100"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="hDr-8E-sra"/>
@@ -94,15 +94,24 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Tu4-9s-5ki" firstAttribute="top" secondItem="jpW-0b-buY" secondAttribute="topMargin" constant="-8" id="8K7-Q4-Js9"/>
                             <constraint firstItem="VaI-IZ-Y2C" firstAttribute="trailing" secondItem="jpW-0b-buY" secondAttribute="trailingMargin" id="JeN-om-Apu"/>
                             <constraint firstItem="Tu4-9s-5ki" firstAttribute="top" secondItem="jpW-0b-buY" secondAttribute="topMargin" constant="-8" id="KK2-nR-DE1"/>
+                            <constraint firstItem="Tu4-9s-5ki" firstAttribute="leading" secondItem="jpW-0b-buY" secondAttribute="leadingMargin" constant="-16" id="OyC-cM-RYr"/>
+                            <constraint firstItem="2Ka-TX-kiv" firstAttribute="top" secondItem="Tu4-9s-5ki" secondAttribute="bottom" id="Pc5-6T-esp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Uy1-Dg-opK" secondAttribute="trailing" constant="-16" id="TRJ-nA-7sU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tu4-9s-5ki" secondAttribute="trailing" constant="-16" id="TcN-AE-hMi"/>
                             <constraint firstItem="2Ka-TX-kiv" firstAttribute="top" secondItem="Tu4-9s-5ki" secondAttribute="bottom" id="a5E-uT-pVA"/>
                             <constraint firstItem="VaI-IZ-Y2C" firstAttribute="top" secondItem="Uy1-Dg-opK" secondAttribute="bottom" constant="6" id="cr3-pN-1Ah"/>
                             <constraint firstItem="VaI-IZ-Y2C" firstAttribute="leading" secondItem="jpW-0b-buY" secondAttribute="leadingMargin" id="fqE-BQ-Sfu"/>
                             <constraint firstItem="Uy1-Dg-opK" firstAttribute="leading" secondItem="jpW-0b-buY" secondAttribute="leadingMargin" constant="-16" id="qHN-zU-V4I"/>
                             <constraint firstItem="2Ka-TX-kiv" firstAttribute="top" secondItem="VaI-IZ-Y2C" secondAttribute="bottom" constant="80" id="vC0-pH-dBX"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KK2-nR-DE1"/>
+                            </mask>
+                        </variation>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
@@ -114,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zY4-lx-c3H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="804" y="136"/>
+            <point key="canvasLocation" x="1170" y="345"/>
         </scene>
     </scenes>
     <resources>

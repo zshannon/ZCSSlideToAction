@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EADF82D66F8CE10CFD3220C2"
-               BuildableName = "libPods-ZCSSlideToAction.a"
-               BlueprintName = "Pods-ZCSSlideToAction"
+               BlueprintIdentifier = "0EEF79914FDA0DEA9F5E4D55"
+               BuildableName = "libShimmer.a"
+               BlueprintName = "Shimmer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

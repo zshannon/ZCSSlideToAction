@@ -1,1042 +1,583 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0150FADAF151447C81CA48EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>025CA289A896462BAB7A608E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>02F64EAE2DEF46AB9437C277</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>08810E85A4744900B68DD5D0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>36D8FD012A4B438494274807</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>088AAA96D61449449AFA2A08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BCD2A90E12B469AB6F4D626</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>02F64EAE2DEF46AB9437C277</string>
-				<string>262E9593DC4141F2985196B2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1385F69D3BF847D585D37F6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B2D54E61CA34A2B883C1353</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1618F5AAFA134E259FD1ED63</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A51298338B4A491B97C7253B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2039775FCED047F396E71D55</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>0BCD2A90E12B469AB6F4D626</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>53F4B31531244F118B3A4AEA</string>
-			<key>productRefGroup</key>
-			<string>564D1B4043864B139BE70482</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>5FE4884719F14F39B6D9256E</string>
-				<string>A8B82BBF28484FFE841690D7</string>
-			</array>
-		</dict>
-		<key>206A54DB072E48449CF6BCD0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E1E03D67E2FC4BA3A3F6EB76</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-ZCSSlideToAction-Shimmer-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>262E9593DC4141F2985196B2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2AE94797FB7A44A189E6F676</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-Shimmer-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B2D54E61CA34A2B883C1353</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBShimmeringView.h</string>
-			<key>path</key>
-			<string>FBShimmering/FBShimmeringView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36D8FD012A4B438494274807</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B9EEDE6C0C642C291D01189</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D886F4A30D24FC8A939AAD9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E55D30B45CF4FBAAB86C185</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ACEC99AC79A546689043C156</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>429E8684346A4A4197E5203B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>452FC2B323434E3580952C88</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46862A4AF61949FE952A8405</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2039775FCED047F396E71D55</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A8B82BBF28484FFE841690D7</string>
-			<key>remoteInfo</key>
-			<string>Pods-ZCSSlideToAction-Shimmer</string>
-		</dict>
-		<key>4AB32128C9F3454F8B97BDDE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B84AABB9CED74BE6B3095F39</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D886F4A30D24FC8A939AAD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBShimmering.h</string>
-			<key>path</key>
-			<string>FBShimmering/FBShimmering.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>522589F314EE4ED9BD6A617F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE72538C73D3487D82F99FA5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52A12A64B9994C6182E50487</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F4B9317952CE4E61A013BECF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53F4B31531244F118B3A4AEA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>025CA289A896462BAB7A608E</string>
-				<string>90B3AEF4CFFD42F69A59516F</string>
-				<string>52A12A64B9994C6182E50487</string>
-				<string>564D1B4043864B139BE70482</string>
-				<string>3E55D30B45CF4FBAAB86C185</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>564D1B4043864B139BE70482</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>90E1C512AB3047DAACF4A920</string>
-				<string>AE72538C73D3487D82F99FA5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5674369B57A841C69A9192B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B84AABB9CED74BE6B3095F39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>592AA912B9464B53ADBE9D82</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F5848C302D74FCA967B9538</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>5FE4884719F14F39B6D9256E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D8E56691C02D409C9637FC2D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD75EC06A52F4E2FA4103ABD</string>
-				<string>CEA1191BD4D74E3B8D5C731E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7440C60210A04D4E93A26F7C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ZCSSlideToAction</string>
-			<key>productName</key>
-			<string>Pods-ZCSSlideToAction</string>
-			<key>productReference</key>
-			<string>90E1C512AB3047DAACF4A920</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>65E33530D99940129A0D49BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D13A72BEDF347FC9638EECA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E900CC66C5E84D0DA9C7B2AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>6DE5AB101B2348C7B480F7B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-Shimmer.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7440C60210A04D4E93A26F7C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>A8B82BBF28484FFE841690D7</string>
-			<key>targetProxy</key>
-			<string>46862A4AF61949FE952A8405</string>
-		</dict>
-		<key>76D1FD3C31CB4310A3617385</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>206A54DB072E48449CF6BCD0</string>
-				<string>AA1704658F9D47D8A1D09853</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>798286A5610041E6BD1F91A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA41F085950D48CFA919D190</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>822BEF92F78340E384C0A40D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBShimmeringLayer.h</string>
-			<key>path</key>
-			<string>FBShimmering/FBShimmeringLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90B3AEF4CFFD42F69A59516F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4AB32128C9F3454F8B97BDDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90E1C512AB3047DAACF4A920</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ZCSSlideToAction.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9189EEF1B0BA45AA8585FECC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>088AAA96D61449449AFA2A08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9F5848C302D74FCA967B9538</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBShimmeringLayer.m</string>
-			<key>path</key>
-			<string>FBShimmering/FBShimmeringLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A291F52BF2154DBEB2AD11B5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>592AA912B9464B53ADBE9D82</string>
-				<string>6D13A72BEDF347FC9638EECA</string>
-				<string>798286A5610041E6BD1F91A7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A51298338B4A491B97C7253B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B84AABB9CED74BE6B3095F39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8B82BBF28484FFE841690D7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>76D1FD3C31CB4310A3617385</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A291F52BF2154DBEB2AD11B5</string>
-				<string>1618F5AAFA134E259FD1ED63</string>
-				<string>DB23D0277E0D4629BC6F4148</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ZCSSlideToAction-Shimmer</string>
-			<key>productName</key>
-			<string>Pods-ZCSSlideToAction-Shimmer</string>
-			<key>productReference</key>
-			<string>AE72538C73D3487D82F99FA5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>AA1704658F9D47D8A1D09853</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E1E03D67E2FC4BA3A3F6EB76</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-ZCSSlideToAction-Shimmer-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>ACEC99AC79A546689043C156</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36D8FD012A4B438494274807</string>
-				<string>65E33530D99940129A0D49BA</string>
-				<string>0150FADAF151447C81CA48EC</string>
-				<string>088AAA96D61449449AFA2A08</string>
-				<string>452FC2B323434E3580952C88</string>
-				<string>429E8684346A4A4197E5203B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-ZCSSlideToAction</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE72538C73D3487D82F99FA5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ZCSSlideToAction-Shimmer.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B84AABB9CED74BE6B3095F39</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B9D29B6BE09243DAAD70248F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>36D8FD012A4B438494274807</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C8EBCEA540E6456D9F69B306</key>
-		<dict>
-			<key>fileRef</key>
-			<string>822BEF92F78340E384C0A40D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CEA1191BD4D74E3B8D5C731E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5674369B57A841C69A9192B9</string>
-				<string>522589F314EE4ED9BD6A617F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D8E56691C02D409C9637FC2D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>08810E85A4744900B68DD5D0</string>
-				<string>B9D29B6BE09243DAAD70248F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DB23D0277E0D4629BC6F4148</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3B9EEDE6C0C642C291D01189</string>
-				<string>C8EBCEA540E6456D9F69B306</string>
-				<string>1385F69D3BF847D585D37F6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E1E03D67E2FC4BA3A3F6EB76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-Shimmer-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E900CC66C5E84D0DA9C7B2AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBShimmeringView.m</string>
-			<key>path</key>
-			<string>FBShimmering/FBShimmeringView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA41F085950D48CFA919D190</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ZCSSlideToAction-Shimmer-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE894A1ACE3E49C4828AD81B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6DE5AB101B2348C7B480F7B4</string>
-				<string>E1E03D67E2FC4BA3A3F6EB76</string>
-				<string>EA41F085950D48CFA919D190</string>
-				<string>2AE94797FB7A44A189E6F676</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F4B9317952CE4E61A013BECF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D886F4A30D24FC8A939AAD9</string>
-				<string>822BEF92F78340E384C0A40D</string>
-				<string>9F5848C302D74FCA967B9538</string>
-				<string>2B2D54E61CA34A2B883C1353</string>
-				<string>E900CC66C5E84D0DA9C7B2AD</string>
-				<string>EE894A1ACE3E49C4828AD81B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Shimmer</string>
-			<key>path</key>
-			<string>Shimmer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD75EC06A52F4E2FA4103ABD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9189EEF1B0BA45AA8585FECC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>2039775FCED047F396E71D55</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021584EFDFD5CE6FA3963E7CAA833E9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6103A7E9E6C610C36B3F6067F2B9F4 /* QuartzCore.framework */; };
+		10B92FC42ABF6E7AF30F8403DAF05EBE /* Shimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F79985A64D96D6EA0AD823AEFE5FF1 /* Shimmer-dummy.m */; };
+		1BB95010BC983A5CB704D18E1BCA730A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EB0A5637ABE754452D0C81517F6B06 /* Foundation.framework */; };
+		1E0039AAB17C2912B2AD7B7FBB6FF6A2 /* Pods-ZCSSlideToAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B7B2A8126B3BC24A95A8647714F6C6 /* Pods-ZCSSlideToAction-dummy.m */; };
+		242F0B82AF44937823D7989B8DCC63E6 /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F927C5741669EC3882D3705CF24F92EF /* FBShimmeringLayer.h */; };
+		3E9111199A8E5A050F8203C24F15192C /* FXBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611BC404774A77C8E1F02E416020054 /* FXBlurView-dummy.m */; };
+		440CE3BC9BB2214EB528AA13711F0689 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C46382460AE19EFF8E0764849871A8C /* FBShimmeringLayer.m */; };
+		6B6075A4B758041E8F828A0E3EB279AD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D80E991D32EB2F61DCEDADE36912583 /* Accelerate.framework */; };
+		790BCA9A5E12462C8AA1B129F585BA8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EB0A5637ABE754452D0C81517F6B06 /* Foundation.framework */; };
+		8157D0D90F8419049ACB2E331EECDEEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EB0A5637ABE754452D0C81517F6B06 /* Foundation.framework */; };
+		8CFCDCCDAEC216877CE339C2FD2B9543 /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8DE17E1259DC28A399FCEC54B8D61E /* FBShimmeringView.h */; };
+		8F63AB3A631A183B41DDC7F7446AA692 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCAC494B4DA8F5BCAD6A39ED494EB5 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B8BC21B05E730AA1D28DA99B9307FBCD /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B2C006311D900D0A3D0B644208C067 /* FBShimmering.h */; };
+		CA358221EB5E8BC58C1D70F79E6DB2F8 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8982B19FC470776F75D0DCEBC54CED06 /* FBShimmeringView.m */; };
+		F3ED844F4AAA0516C9C0E6553ABA8E9F /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6A77DA168E682EA830613A7B2D2A3 /* FXBlurView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BF78E904EA78E9D19A7002E404CE174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACA5E87917F5764981C6D3F39F78404;
+			remoteInfo = FXBlurView;
+		};
+		D1198E78C09EB29827790BDC47EF70FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9417B210E6920CFD71D83D23447BA3;
+			remoteInfo = Shimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D80E991D32EB2F61DCEDADE36912583 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		13EB0A5637ABE754452D0C81517F6B06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1AB01B7D47956DE691421CB66187A1A4 /* FXBlurView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FXBlurView-Private.xcconfig"; sourceTree = "<group>"; };
+		21B2C006311D900D0A3D0B644208C067 /* FBShimmering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = "<group>"; };
+		26BB837238A001063304EDDFB35DD8E3 /* Pods-ZCSSlideToAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCSSlideToAction.debug.xcconfig"; sourceTree = "<group>"; };
+		2FDC0FF43186EA602C1BEB096891FC70 /* Shimmer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Shimmer-Private.xcconfig"; sourceTree = "<group>"; };
+		37B6A77DA168E682EA830613A7B2D2A3 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = FXBlurView/FXBlurView.h; sourceTree = "<group>"; };
+		3D6C7A3718F8099CDCA26A16442CF26F /* Shimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shimmer.xcconfig; sourceTree = "<group>"; };
+		48CCAC494B4DA8F5BCAD6A39ED494EB5 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
+		5A3FC424B54CC49E756A0B46B3FCBA13 /* libShimmer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShimmer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6384FD74C0B57DFCE222FF5FD2A1AF /* Pods-ZCSSlideToAction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCSSlideToAction-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B0D530A904E1D201AD193790849F153 /* Pods-ZCSSlideToAction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCSSlideToAction-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C01659C7572ECF72E61A44FBE0829E5 /* libPods-ZCSSlideToAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZCSSlideToAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7480847448D1DE18B2D23430AED935A2 /* FXBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXBlurView-prefix.pch"; sourceTree = "<group>"; };
+		7611BC404774A77C8E1F02E416020054 /* FXBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FXBlurView-dummy.m"; sourceTree = "<group>"; };
+		786DC2AF60ED165856F4F7233CC23BDD /* Pods-ZCSSlideToAction-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCSSlideToAction-resources.sh"; sourceTree = "<group>"; };
+		78A3071E72F50B4EF07F7F6A72A79144 /* libFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFXBlurView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C46382460AE19EFF8E0764849871A8C /* FBShimmeringLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = "<group>"; };
+		7E6103A7E9E6C610C36B3F6067F2B9F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		81A2DB1E8813682DB675879B9E05B186 /* Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-prefix.pch"; sourceTree = "<group>"; };
+		8982B19FC470776F75D0DCEBC54CED06 /* FBShimmeringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = "<group>"; };
+		B4F79985A64D96D6EA0AD823AEFE5FF1 /* Shimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Shimmer-dummy.m"; sourceTree = "<group>"; };
+		BB8DE17E1259DC28A399FCEC54B8D61E /* FBShimmeringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = "<group>"; };
+		C30EFBACE8E8B8DEB05EC1EC717912C2 /* Pods-ZCSSlideToAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCSSlideToAction.release.xcconfig"; sourceTree = "<group>"; };
+		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5B7B2A8126B3BC24A95A8647714F6C6 /* Pods-ZCSSlideToAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCSSlideToAction-dummy.m"; sourceTree = "<group>"; };
+		F0C889F5A493E1D707930EBEE5244763 /* FXBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FXBlurView.xcconfig; sourceTree = "<group>"; };
+		F927C5741669EC3882D3705CF24F92EF /* FBShimmeringLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78F4FE9DA92CC808676B1AAEB039FB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790BCA9A5E12462C8AA1B129F585BA8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0D2507C6917E5942488DB09CDA648E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6075A4B758041E8F828A0E3EB279AD /* Accelerate.framework in Frameworks */,
+				8157D0D90F8419049ACB2E331EECDEEC /* Foundation.framework in Frameworks */,
+				021584EFDFD5CE6FA3963E7CAA833E9B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC40FA94A845CB506D07D5BDAA81C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB95010BC983A5CB704D18E1BCA730A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D32C1174C54781320CA1E1F0C3B9A74 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				21B2C006311D900D0A3D0B644208C067 /* FBShimmering.h */,
+				F927C5741669EC3882D3705CF24F92EF /* FBShimmeringLayer.h */,
+				7C46382460AE19EFF8E0764849871A8C /* FBShimmeringLayer.m */,
+				BB8DE17E1259DC28A399FCEC54B8D61E /* FBShimmeringView.h */,
+				8982B19FC470776F75D0DCEBC54CED06 /* FBShimmeringView.m */,
+				B6114E5DCB9166DBAF02191D147E6CE6 /* Support Files */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		2F414954F87ED957BE121A1660094A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				671E2B732607A02829FCD043EA563DBA /* FXBlurView */,
+				2D32C1174C54781320CA1E1F0C3B9A74 /* Shimmer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B540DC8D457694C8F0B977723CBF141 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C889F5A493E1D707930EBEE5244763 /* FXBlurView.xcconfig */,
+				1AB01B7D47956DE691421CB66187A1A4 /* FXBlurView-Private.xcconfig */,
+				7611BC404774A77C8E1F02E416020054 /* FXBlurView-dummy.m */,
+				7480847448D1DE18B2D23430AED935A2 /* FXBlurView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FXBlurView";
+			sourceTree = "<group>";
+		};
+		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3C420F843D28CC19CB40DCE9D7D8D1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671E2B732607A02829FCD043EA563DBA /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				37B6A77DA168E682EA830613A7B2D2A3 /* FXBlurView.h */,
+				48CCAC494B4DA8F5BCAD6A39ED494EB5 /* FXBlurView.m */,
+				5B540DC8D457694C8F0B977723CBF141 /* Support Files */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
+				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
+				2F414954F87ED957BE121A1660094A49 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF631E68369C190B7B84E10B9084999D /* Pods-ZCSSlideToAction */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE3C420F843D28CC19CB40DCE9D7D8D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D80E991D32EB2F61DCEDADE36912583 /* Accelerate.framework */,
+				13EB0A5637ABE754452D0C81517F6B06 /* Foundation.framework */,
+				7E6103A7E9E6C610C36B3F6067F2B9F4 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B6114E5DCB9166DBAF02191D147E6CE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6C7A3718F8099CDCA26A16442CF26F /* Shimmer.xcconfig */,
+				2FDC0FF43186EA602C1BEB096891FC70 /* Shimmer-Private.xcconfig */,
+				B4F79985A64D96D6EA0AD823AEFE5FF1 /* Shimmer-dummy.m */,
+				81A2DB1E8813682DB675879B9E05B186 /* Shimmer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Shimmer";
+			sourceTree = "<group>";
+		};
+		BF631E68369C190B7B84E10B9084999D /* Pods-ZCSSlideToAction */ = {
+			isa = PBXGroup;
+			children = (
+				6A6384FD74C0B57DFCE222FF5FD2A1AF /* Pods-ZCSSlideToAction-acknowledgements.markdown */,
+				6B0D530A904E1D201AD193790849F153 /* Pods-ZCSSlideToAction-acknowledgements.plist */,
+				E5B7B2A8126B3BC24A95A8647714F6C6 /* Pods-ZCSSlideToAction-dummy.m */,
+				786DC2AF60ED165856F4F7233CC23BDD /* Pods-ZCSSlideToAction-resources.sh */,
+				26BB837238A001063304EDDFB35DD8E3 /* Pods-ZCSSlideToAction.debug.xcconfig */,
+				C30EFBACE8E8B8DEB05EC1EC717912C2 /* Pods-ZCSSlideToAction.release.xcconfig */,
+			);
+			name = "Pods-ZCSSlideToAction";
+			path = "Target Support Files/Pods-ZCSSlideToAction";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A3071E72F50B4EF07F7F6A72A79144 /* libFXBlurView.a */,
+				6C01659C7572ECF72E61A44FBE0829E5 /* libPods-ZCSSlideToAction.a */,
+				5A3FC424B54CC49E756A0B46B3FCBA13 /* libShimmer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1B07D3CDDC04A423B715B499D4EE66B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ED844F4AAA0516C9C0E6553ABA8E9F /* FXBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A26F26736FEE0BE53C964E0C0F5853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BC21B05E730AA1D28DA99B9307FBCD /* FBShimmering.h in Headers */,
+				242F0B82AF44937823D7989B8DCC63E6 /* FBShimmeringLayer.h in Headers */,
+				8CFCDCCDAEC216877CE339C2FD2B9543 /* FBShimmeringView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		046E6FCC55258A4B6DCDC1AF0752DE27 /* Pods-ZCSSlideToAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2791C1C69D33FD891126F2FF19C96D /* Build configuration list for PBXNativeTarget "Pods-ZCSSlideToAction" */;
+			buildPhases = (
+				25894B08FF96C9B57BE7A3E937B8E780 /* Sources */,
+				FEC40FA94A845CB506D07D5BDAA81C0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ECD4A0CB3FC4BAEABDE25FDCF353350 /* PBXTargetDependency */,
+				7D9A80FF3056612E972B81685E9F4324 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZCSSlideToAction";
+			productName = "Pods-ZCSSlideToAction";
+			productReference = 6C01659C7572ECF72E61A44FBE0829E5 /* libPods-ZCSSlideToAction.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB9417B210E6920CFD71D83D23447BA3 /* Shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DAFF602B722CB7B178BEC132C9886A /* Build configuration list for PBXNativeTarget "Shimmer" */;
+			buildPhases = (
+				D77F5DD15772F5D47933FE07249628C7 /* Sources */,
+				78F4FE9DA92CC808676B1AAEB039FB9F /* Frameworks */,
+				E5A26F26736FEE0BE53C964E0C0F5853 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shimmer;
+			productName = Shimmer;
+			productReference = 5A3FC424B54CC49E756A0B46B3FCBA13 /* libShimmer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EACA5E87917F5764981C6D3F39F78404 /* FXBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE25D07516DE8D6DCB437661BEE4E88A /* Build configuration list for PBXNativeTarget "FXBlurView" */;
+			buildPhases = (
+				719170812378529B3BD960540F07065B /* Sources */,
+				DC0D2507C6917E5942488DB09CDA648E /* Frameworks */,
+				E1B07D3CDDC04A423B715B499D4EE66B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXBlurView;
+			productName = FXBlurView;
+			productReference = 78A3071E72F50B4EF07F7F6A72A79144 /* libFXBlurView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACA5E87917F5764981C6D3F39F78404 /* FXBlurView */,
+				046E6FCC55258A4B6DCDC1AF0752DE27 /* Pods-ZCSSlideToAction */,
+				BB9417B210E6920CFD71D83D23447BA3 /* Shimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25894B08FF96C9B57BE7A3E937B8E780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0039AAB17C2912B2AD7B7FBB6FF6A2 /* Pods-ZCSSlideToAction-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719170812378529B3BD960540F07065B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9111199A8E5A050F8203C24F15192C /* FXBlurView-dummy.m in Sources */,
+				8F63AB3A631A183B41DDC7F7446AA692 /* FXBlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77F5DD15772F5D47933FE07249628C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440CE3BC9BB2214EB528AA13711F0689 /* FBShimmeringLayer.m in Sources */,
+				CA358221EB5E8BC58C1D70F79E6DB2F8 /* FBShimmeringView.m in Sources */,
+				10B92FC42ABF6E7AF30F8403DAF05EBE /* Shimmer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ECD4A0CB3FC4BAEABDE25FDCF353350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FXBlurView;
+			target = EACA5E87917F5764981C6D3F39F78404 /* FXBlurView */;
+			targetProxy = 0BF78E904EA78E9D19A7002E404CE174 /* PBXContainerItemProxy */;
+		};
+		7D9A80FF3056612E972B81685E9F4324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = BB9417B210E6920CFD71D83D23447BA3 /* Shimmer */;
+			targetProxy = D1198E78C09EB29827790BDC47EF70FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C812A8B084AB655D058D5DC45F0D458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2CA3415B9BDA3B631B60F8041CE63428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30EFBACE8E8B8DEB05EC1EC717912C2 /* Pods-ZCSSlideToAction.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C84345D7EEBBBB2BFF18E13BB3BA6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D8F7676778E8D0DE2D4AC2D061B5454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDC0FF43186EA602C1BEB096891FC70 /* Shimmer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		900B1CC2D1F4CFC4919531785A8130A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDC0FF43186EA602C1BEB096891FC70 /* Shimmer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9A3B9796A874CC6B0461E45B2DF7A17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BB837238A001063304EDDFB35DD8E3 /* Pods-ZCSSlideToAction.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6B9867DE820F9CC63946E000CBD844D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB01B7D47956DE691421CB66187A1A4 /* FXBlurView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EBCABB628937ECEB2839AB237C0CE227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB01B7D47956DE691421CB66187A1A4 /* FXBlurView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C812A8B084AB655D058D5DC45F0D458 /* Debug */,
+				7C84345D7EEBBBB2BFF18E13BB3BA6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2791C1C69D33FD891126F2FF19C96D /* Build configuration list for PBXNativeTarget "Pods-ZCSSlideToAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3B9796A874CC6B0461E45B2DF7A17B /* Debug */,
+				2CA3415B9BDA3B631B60F8041CE63428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DAFF602B722CB7B178BEC132C9886A /* Build configuration list for PBXNativeTarget "Shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900B1CC2D1F4CFC4919531785A8130A1 /* Debug */,
+				8D8F7676778E8D0DE2D4AC2D061B5454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE25D07516DE8D6DCB437661BEE4E88A /* Build configuration list for PBXNativeTarget "FXBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B9867DE820F9CC63946E000CBD844D /* Debug */,
+				EBCABB628937ECEB2839AB237C0CE227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

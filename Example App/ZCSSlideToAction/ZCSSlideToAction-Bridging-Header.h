@@ -9,8 +9,12 @@
 #ifndef ZCSSlideToAction_ZCSSlideToAction_Bridging_Header_h
 #define ZCSSlideToAction_ZCSSlideToAction_Bridging_Header_h
 
+// Shimmer
 #import "Shimmer/FBShimmering.h"
 #import "Shimmer/FBShimmeringLayer.h"
 #import "Shimmer/FBShimmeringView.h"
+
+// FXBlurView
+#import "FXBlurView/FXBlurView.h"
 
 #endif

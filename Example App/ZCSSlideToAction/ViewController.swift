@@ -13,9 +13,9 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 	@IBOutlet var scrollView:UIScrollView? = nil
 	@IBOutlet var pageControl:UIPageControl? = nil
 	let contentList = [
-		["Label": "Stripes", "Class": "StripesSlideToAction"],
-		["Label": "Blur", "Class": "BlurSlideToAction"],
-		["Label": "Shimmer Label", "Class": "ShimmerLabelSlideToAction"]
+//		["Label": "Stripes", "Class": "StripesSlideToAction", "Background": "bg", "Background-Action": "bg-highlighted"],
+//		["Label": "Blur", "Class": "BlurSlideToAction", "Background": "stripes", "Background-Action": "bg-highlighted"],
+		["Label": "Shimmer Label", "Class": "ShimmerLabelSlideToAction", "Background": "bg", "Background-Action": "bg-highlighted"]
 	]
 	var viewControllers:[SubClassViewController]? = nil
 
@@ -82,7 +82,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 			self.addChildViewController(controller!)
 			self.scrollView?.addSubview(controller!.view)
 			controller!.didMoveToParentViewController(self)
-			controller!.setSubClassObject(self.contentList[page] as [String: String])
+			controller!.subClassObject = self.contentList[page] as [String: String]
 		}
 	}
 	

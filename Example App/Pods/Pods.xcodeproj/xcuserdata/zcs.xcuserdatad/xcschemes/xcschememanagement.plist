@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-ZCSSlideToAction-Shimmer.xcscheme</key>
+		<key>FXBlurView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Shimmer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5FE4884719F14F39B6D9256E</key>
+		<key>046E6FCC55258A4B6DCDC1AF0752DE27</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8B82BBF28484FFE841690D7</key>
+		<key>BB9417B210E6920CFD71D83D23447BA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EACA5E87917F5764981C6D3F39F78404</key>
 		<dict>
 			<key>primary</key>
 			<true/>

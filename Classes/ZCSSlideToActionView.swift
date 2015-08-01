@@ -56,7 +56,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 	
 	func handlePanGesture(recognizer: UIGestureRecognizer) {
 		if (recognizer.state == UIGestureRecognizerState.Began) {
-			let percentagePosition = Double((recognizer as UIPanGestureRecognizer).translationInView(self).x) / Double(self.frame.width)
+			let percentagePosition = Double((recognizer as! UIPanGestureRecognizer).translationInView(self).x) / Double(self.frame.width)
 			self.willActivate = percentagePosition >= self.activationPoint
 			self.renderPosition(percentagePosition, animated: false)
 			if let d = self.delegate {
@@ -68,7 +68,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 		else if (recognizer.state == UIGestureRecognizerState.Ended ||
 			recognizer.state == UIGestureRecognizerState.Cancelled ||
 			recognizer.state == UIGestureRecognizerState.Failed) {
-			let percentagePosition = Double((recognizer as UIPanGestureRecognizer).translationInView(self).x) / Double(self.frame.width)
+			let percentagePosition = Double((recognizer as! UIPanGestureRecognizer).translationInView(self).x) / Double(self.frame.width)
 			self.willActivate = percentagePosition >= self.activationPoint
 			if self.willActivate {
 				self.renderPosition(1.0, animated: true)
@@ -88,7 +88,7 @@ class ZCSSlideToActionView: UIView, SliderProtocol {
 			}
 		}
 		else if (recognizer.state == UIGestureRecognizerState.Changed) {
-			let percentagePosition = Double((recognizer as UIPanGestureRecognizer).translationInView(self).x) / Double(self.frame.width)
+			let percentagePosition = Double((recognizer as! UIPanGestureRecognizer).translationInView(self).x) / Double(self.frame.width)
 			self.willActivate = percentagePosition >= self.activationPoint
 			self.renderPosition(percentagePosition, animated: false)
 		}

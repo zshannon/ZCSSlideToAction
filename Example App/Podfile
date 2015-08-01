@@ -3,6 +3,7 @@
 
 target "ZCSSlideToAction" do
 	pod 'Shimmer'
+	pod 'FXBlurView'
 end
 
 target "ZCSSlideToActionTests" do

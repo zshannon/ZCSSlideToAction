@@ -10,7 +10,32 @@ import Foundation
 
 class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 	
-	var subClassObject:[String: String]? = nil
+  var subClassObject:[String: String]? = nil {
+    didSet (newVal) {
+      println("didSet: \(subClassObject)")
+      if let o = subClassObject {
+        self.sildeToActionViewLabel?.text = o["Label"] as AnyObject? as? String
+        if let bg = o["Background"] as AnyObject? as? String {
+          self.backgroundImageView?.image = UIImage(named: bg)
+        }
+        if let hbg = o["Background-Action"] as AnyObject? as? String {
+          self.backgroundImageView?.highlightedImage = UIImage(named: hbg)
+        }
+        if let klass = NSClassFromString(o["Class"] as AnyObject? as? String) as? NSObject.Type {
+          self.slideToActionView = klass() as? ZCSSlideToActionView
+          if let actionView = self.slideToActionView {
+            actionView.delegate = self
+            self.slideToActionViewPlaceholder!.addSubview(actionView)
+            actionView.awakeFromNib()
+            actionView.frame = self.slideToActionViewPlaceholder!.bounds
+            actionView.layoutSubviews()
+            let singleTapGestureRecognizer = UITapGestureRecognizer(target: actionView, action: "reset")
+            actionView.addGestureRecognizer(singleTapGestureRecognizer)
+          }
+        }
+      }
+    }
+  }
 	@IBOutlet var backgroundImageView:UIImageView? = nil
 	@IBOutlet var slideToActionViewPlaceholder:UIView? = nil
 	var slideToActionView:ZCSSlideToActionView? = nil
@@ -30,25 +55,6 @@ class SubClassViewController: UIViewController, ZCSSlideToActionViewDelegate {
 		if let v = self.slideToActionViewPlaceholder {
 			v.frame = CGRectMake(0, 0, view.frame.width, v.frame.height)
 			v.layoutSubviews()
-		}
-	}
-	
-	func setSubClassObject(object:[String: String]?) {
-		self.subClassObject = object
-		if let o = object {
-			self.sildeToActionViewLabel?.text = o["Label"] as AnyObject? as? String
-			if let klass = NSClassFromString(o["Class"] as AnyObject? as? String) as? NSObject.Type {
-				self.slideToActionView = klass() as? ZCSSlideToActionView
-				if let actionView = self.slideToActionView {
-					actionView.delegate = self
-					self.slideToActionViewPlaceholder!.addSubview(actionView)
-					actionView.awakeFromNib()
-					actionView.frame = self.slideToActionViewPlaceholder!.bounds
-					actionView.layoutSubviews()
-					let singleTapGestureRecognizer = UITapGestureRecognizer(target: actionView, action: "reset")
-					actionView.addGestureRecognizer(singleTapGestureRecognizer)
-				}
-			}
 		}
 	}
 	
